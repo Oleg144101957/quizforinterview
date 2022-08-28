@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634663773401",
+    "firebase_url": "https://quiz-6eaac-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "quiz-6eaac",
+    "storage_bucket": "quiz-6eaac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634663773401:android:cb6d2a71475be0dc324ac8",
+        "android_client_info": {
+          "package_name": "com.example.quizforinterview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634663773401-nkv5132b4uc0mcct0tnpf0qjaf3ppbqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Q8oZnAWYItnLUBGwbiQPPVtCeUvSbGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634663773401-nkv5132b4uc0mcct0tnpf0qjaf3ppbqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
