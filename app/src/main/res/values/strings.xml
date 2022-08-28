@@ -8,4 +8,8 @@
     <string name="what_country">What country</string>
     <string name="apple">Apple</string>
     <string name="submit">Submit</string>
+    <string name="result">Result</string>
+    <string name="hey_congrtulations">Hey, Congrtulations!</string>
+    <string name="finish">Finish</string>
+    <string name="your_score_is_9_of_10">Your score is 9 of 10</string>
 </resources>

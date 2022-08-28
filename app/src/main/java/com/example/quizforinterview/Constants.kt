@@ -1,14 +1,17 @@
 package com.example.quizforinterview
 
 object Constants{
-    const val qustionText = "What country does this flag belong to?"
+    const val QUESTION_TEXT = "What country does this flag belong to?"
+    const val USER_NAME: String = "user_name"
+    const val TOTAL_QUESTIONS: String = "tottal_questions"
+    const val CORRECT_ANSWERS: String = "correct_ansvers"
 
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
         val que1 = Question(
             id = 1,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.arg,
             "Argentina",
             "Australia",
@@ -21,7 +24,7 @@ object Constants{
 
         val que2 = Question(
             id = 2,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.australia,
             "Argentina",
             "Australia",
@@ -34,7 +37,7 @@ object Constants{
 
         val que3 = Question(
             id = 3,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.belgium,
             "Argentina",
             "Australia",
@@ -47,7 +50,7 @@ object Constants{
 
         val que4 = Question(
             id = 4,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.brazil,
             "Fiji",
             "Brazil",
@@ -60,7 +63,7 @@ object Constants{
 
         val que5 = Question(
             id = 5,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.de,
             "Ukraine",
             "France",
@@ -73,7 +76,7 @@ object Constants{
 
         val que6 = Question(
             id = 6,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.denmark,
             "Denmark",
             "France",
@@ -86,7 +89,7 @@ object Constants{
 
         val que7 = Question(
             id = 7,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.fiji,
             "Australia",
             "Egypt",
@@ -99,7 +102,7 @@ object Constants{
 
         val que8 = Question(
             id = 8,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.india,
             "Thailand",
             "Kuwait",
@@ -112,7 +115,7 @@ object Constants{
 
         val que9 = Question(
             id = 9,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.kuwait,
             "Kuwait",
             "Lebanon",
@@ -125,7 +128,7 @@ object Constants{
 
         val que10 = Question(
             id = 10,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.lebanon,
             "Thailand",
             "Indonesia",
@@ -138,7 +141,7 @@ object Constants{
 
         val que11 = Question(
             id = 11,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.newze,
             "Fiji",
             "New Zeland",
@@ -151,7 +154,7 @@ object Constants{
 
         val que12 = Question(
             id = 12,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.ua,
             "France",
             "Germany",
@@ -164,7 +167,7 @@ object Constants{
 
         val que13 = Question(
             id = 13,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.usa,
             "Canada",
             "Germany",
@@ -177,7 +180,7 @@ object Constants{
 
         val que14 = Question(
             id = 14,
-            question = qustionText,
+            question = QUESTION_TEXT,
             R.drawable.zimbabve,
             "Argentina",
             "Zimbabwe",
